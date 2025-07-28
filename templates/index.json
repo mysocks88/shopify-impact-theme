@@ -281,13 +281,13 @@
       "settings": {
         "full_width": true,
         "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
+        "text_size": "small",
+        "text_style": "outline",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#de202b",
         "text_gradient": ""
       }
     },
