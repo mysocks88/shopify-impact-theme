@@ -13,7 +13,7 @@
       "type": "main-blog",
       "settings": {
         "allow_transparent_header": false,
-        "content": "<p>Get access to our latest news by signing up for our newsletter.</p>",
+        "content": "",
         "show_newsletter_form": false,
         "show_tags": true,
         "banner_background": "",
@@ -27,7 +27,7 @@
         "show_excerpt": true,
         "show_date": true,
         "show_author": false,
-        "show_comments_count": false,
+        "show_comments_count": true,
         "show_category": false
       }
     }
