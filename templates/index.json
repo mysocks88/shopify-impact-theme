@@ -69,6 +69,41 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "blog_posts_KQf6g3": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_mMmEjm": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 6,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_mMmEjm"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "All the key dates and venues for aspiring marksmen and fans alike.",
+        "title": "Shooting Events & News",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -903,6 +938,7 @@
   },
   "order": [
     "slideshow",
+    "blog_posts_KQf6g3",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
