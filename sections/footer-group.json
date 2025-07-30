@@ -13,19 +13,6 @@
   "sections": {
     "logo_list_xC8tG6": {
       "type": "logo-list",
-      "blocks": {
-        "logo_cc4rQr": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/website-logo-white.png",
-            "logo_width": 190,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_cc4rQr"
-      ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
