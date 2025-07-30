@@ -50,6 +50,19 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "custom_liquid_tfkEJ7": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!-- Google Font -->\n<link href=\"https://fonts.googleapis.com/css2?family=Anton&display=swap\" rel=\"stylesheet\">\n\n<section class=\"olympic-countdown\">\n  <div class=\"countdown-content\">\n    <h4 class=\"next-label\">NEXT OLYMPIC GAMES</h4>\n    <div class=\"countdown-timer\" id=\"countdown\">\n      <span id=\"days\">0000</span> :\n      <span id=\"hours\">00</span> :\n      <span id=\"minutes\">00</span> :\n      <span id=\"seconds\">00</span>\n    </div>\n    <p class=\"days-left-text\">Days : Hours : Minutes : Seconds</p>\n    <h5 class=\"olympic-subtitle\">SUMMER OLYMPICS – LOS ANGELES 2028</h5>\n    <p class=\"olympic-date\">Opening Ceremony – Friday, July 14, 2028</p>\n  </div>\n</section>\n\n<style>\n  .olympic-countdown {\n    background-color: #f2f6fa;\n    padding: 2rem 1.5rem;\n    font-family: 'Anton', sans-serif;\n  }\n\n  .countdown-content {\n    max-width: 1000px;\n    margin: 0 auto;\n    text-align: left;\n  }\n\n  .next-label {\n    color: #002856;\n    font-size: 1rem;\n    font-family: Arial, sans-serif;\n    font-weight: bold;\n    text-transform: uppercase;\n    margin-bottom: 0.5rem;\n  }\n\n  .countdown-timer {\n    font-size: 4rem;\n    font-weight: 900;\n    color: #002856;\n    letter-spacing: 0.3rem;\n    font-style: italic;\n    line-height: 1.2;\n  }\n\n  .days-left-text {\n    font-size: 1rem;\n    color: #002856;\n    font-weight: 500;\n    margin: 0.3rem 0 1rem;\n    font-family: Arial, sans-serif;\n  }\n\n  .olympic-subtitle {\n    color: #d71920;\n    font-weight: bold;\n    font-size: 1.2rem;\n    font-family: Arial, sans-serif;\n    text-transform: uppercase;\n  }\n\n  .olympic-date {\n    color: #002856;\n    font-size: 1rem;\n    font-family: Arial, sans-serif;\n  }\n\n  @media screen and (max-width: 768px) {\n    .countdown-timer {\n      font-size: 2.8rem;\n    }\n    .countdown-content {\n      text-align: left;\n    }\n  }\n</style>\n\n<script>\n  function updateCountdown() {\n    const targetDate = new Date(\"July 14, 2028 00:00:00\").getTime();\n    const now = new Date().getTime();\n    const distance = targetDate - now;\n\n    if (distance < 0) return;\n\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);\n    const minutes = Math.floor((distance / (1000 * 60)) % 60);\n    const seconds = Math.floor((distance / 1000) % 60);\n\n    document.getElementById(\"days\").textContent = String(days).padStart(4, '0');\n    document.getElementById(\"hours\").textContent = String(hours).padStart(2, '0');\n    document.getElementById(\"minutes\").textContent = String(minutes).padStart(2, '0');\n    document.getElementById(\"seconds\").textContent = String(seconds).padStart(2, '0');\n  }\n\n  setInterval(updateCountdown, 1000);\n  updateCountdown();\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "blog_posts_KQf6g3": {
       "type": "blog-posts",
       "blocks": {
@@ -955,6 +968,7 @@
   },
   "order": [
     "slideshow",
+    "custom_liquid_tfkEJ7",
     "blog_posts_KQf6g3",
     "blog_posts_Mf8iLV",
     "image-link-blocks",
