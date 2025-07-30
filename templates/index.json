@@ -228,12 +228,12 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
+        "text": "Join India’s fastest growing shooting & archery community – Shooting Star 🇮🇳",
         "text_size": "small",
         "text_style": "outline",
         "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
+        "scrolling_speed": 8,
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#de202b",
         "text_gradient": ""
