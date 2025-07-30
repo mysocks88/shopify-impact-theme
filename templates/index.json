@@ -153,6 +153,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/shotgun-section.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -221,8 +222,8 @@
       "settings": {
         "full_width": false,
         "block_size": "medium",
-        "subheading": "",
-        "title": "",
+        "subheading": "Supporting Every Shooter — From Archers to Trap Athletes",
+        "title": "Disciplines We Support",
         "content": "",
         "link_url": "",
         "link_text": "",
