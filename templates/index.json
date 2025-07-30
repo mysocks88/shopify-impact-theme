@@ -63,6 +63,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_j3bU6a": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"about-shooting-star\">\n  <div class=\"about-inner\">\n    <h2 class=\"about-heading\">About Shooting Star</h2>\n    <p class=\"about-text\">\n      Shooting Star is a platform for India's competitive shooters — from grassroots archers to elite trap shooters. We help you train better, stay informed, and connect with the community. Whether you’re mastering the air rifle, competing in shotgun trap, or aiming bullseyes in archery, our mission is to support every Indian shooter’s journey to excellence.\n    </p>\n  </div>\n</section>\n\n<style>\n  .about-shooting-star {\n    background-color: #ffffff;\n    padding: 3rem 1.5rem;\n  }\n\n  .about-inner {\n    max-width: 960px;\n    margin: 0 auto;\n    text-align: left;\n  }\n\n  .about-heading {\n    font-family: 'Anton', sans-serif;\n    font-style: italic;\n    font-size: 2.5rem;\n    color: #002856;\n    margin-bottom: 1rem;\n  }\n\n  .about-text {\n    font-size: 1.1rem;\n    line-height: 1.7;\n    font-family: 'Arial', sans-serif;\n    color: #333;\n  }\n\n  @media screen and (max-width: 768px) {\n    .about-heading {\n      font-size: 2rem;\n    }\n\n    .about-text {\n      font-size: 1rem;\n    }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "blog_posts_KQf6g3": {
       "type": "blog-posts",
       "blocks": {
@@ -969,6 +982,7 @@
   "order": [
     "slideshow",
     "custom_liquid_tfkEJ7",
+    "custom_liquid_j3bU6a",
     "blog_posts_KQf6g3",
     "blog_posts_Mf8iLV",
     "image-link-blocks",
