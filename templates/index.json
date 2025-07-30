@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/gettyimages-2165372123-2048x2048.webp",
             "mobile_image": "shopify://shop_images/gettyimages-2165372123-2048x2048.webp",
-            "content_max_width": 780,
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -41,7 +41,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "md",
+        "image_size": "lg",
         "controls_type": "none",
         "transition_type": "fade_with_text",
         "autoplay": true,
