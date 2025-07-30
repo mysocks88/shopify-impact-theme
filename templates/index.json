@@ -53,7 +53,7 @@
     "custom_liquid_tfkEJ7": {
       "type": "custom-liquid",
       "custom_css": [
-        ".olympic-subtitle {font-family: \"League Spartan\", sans-serif; font-weight: 800; font-style: italic; font-size: 2rem; color: #d71920; /* Fill color */ text-transform: uppercase; letter-spacing: 0.15rem; line-height: 1.2;}",
+        ".olympic-subtitle {font-family: \"League Spartan\", sans-serif; font-weight: 800; font-style: italic; font-size: 1.6rem; color: #d71920; /* Fill color */ text-transform: uppercase; letter-spacing: 0.15rem; line-height: 1.2;}",
         " /* Medium screens (tablet) */@media (min-width: 768px) {.olympic-subtitle {font-size: 3rem; -webkit-text-stroke: 0.8px #ffffff; }}",
         " /* Large screens (desktop) */@media (min-width: 1024px) {.olympic-subtitle {font-size: 3.5rem; -webkit-text-stroke: 1px #ffffff; }}"
       ],
