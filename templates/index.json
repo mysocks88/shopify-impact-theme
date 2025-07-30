@@ -163,9 +163,10 @@
             "overlay_opacity": 0
           }
         },
-        "1664424046b00c932c-1": {
+        "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/22-rifle-section.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -178,6 +179,7 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/air-rifle-section.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -187,21 +189,10 @@
             "overlay_opacity": 0
           }
         },
-        "1664424046b00c932c-3": {
+        "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
+            "image": "shopify://shop_images/archery-section.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -214,10 +205,9 @@
       },
       "block_order": [
         "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
         "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "1664424046b00c932c-2",
+        "1664424046b00c932c-1"
       ],
       "settings": {
         "full_width": true,
