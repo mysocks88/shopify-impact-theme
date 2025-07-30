@@ -44,7 +44,7 @@
     "text_font": "futura_n4",
     "text_font_size_desktop": 16,
     "show_page_transition": true,
-    "heading_apparition": "split_clip",
+    "heading_apparition": "fade",
     "color_swatch_style": "rectangle",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "tall_crop",

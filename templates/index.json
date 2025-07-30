@@ -220,8 +220,8 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
       ],
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
+        "full_width": true,
+        "block_size": "small",
         "subheading": "Supporting Every Shooter — From Archers to Trap Athletes",
         "title": "Disciplines We Support",
         "content": "",
