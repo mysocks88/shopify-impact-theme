@@ -84,5 +84,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var header = document.querySelector(".custom-header-bottom-menu");
+    if (window.location.pathname !== "/" && header) {
+      header.style.backgroundColor = "#002856";
+    }
+  });
+</script>
   </body>
 </html>
