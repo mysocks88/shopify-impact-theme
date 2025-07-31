@@ -66,11 +66,9 @@
       "block_order": [
         "mega_menu_P4QbYX"
       ],
-      "custom_css": [
-        "/* hide the search icon in header */.header__search,.site-header__search-icon,.icon-search,.search-toggle,.site-nav__icon--search {display: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/website-logo-white.png",
         "logo_max_width": 180,
