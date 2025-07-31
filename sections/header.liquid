@@ -333,7 +333,19 @@ the underlying logic of the menu.
   </ul>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.getElementById("custom-header-bottom-menu");
 
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 50) {
+        menu.classList.add("scrolled");
+      } else {
+        menu.classList.remove("scrolled");
+      }
+    });
+  });
+</script>
   </store-header>
 </height-observer>
 
