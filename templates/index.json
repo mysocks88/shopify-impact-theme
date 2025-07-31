@@ -158,7 +158,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/shotgun-section.jpg",
+            "image": "shopify://shop_images/shotgun-section_c4782860-b771-41dc-a2b3-d533d8716df0.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -171,7 +171,7 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/22-rifle-section.jpg",
+            "image": "shopify://shop_images/22-rifle-section_1afdd738-9f28-49f9-b9a8-db7c0822fde5.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -184,7 +184,7 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/air-rifle-section.jpg",
+            "image": "shopify://shop_images/air-rifle-section_9aaaae0d-ccfb-4335-8a5d-9f5b7c10f588.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -197,7 +197,20 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/archery-section.jpg",
+            "image": "shopify://shop_images/air-pistol-section.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_rBnPYK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/archery-section_1179626b-46f2-42cc-8d6a-8dde77c1587e.jpg",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
@@ -212,7 +225,8 @@
         "1664424046b00c932c-0",
         "1664424046b00c932c-3",
         "1664424046b00c932c-2",
-        "1664424046b00c932c-1"
+        "1664424046b00c932c-1",
+        "item_rBnPYK"
       ],
       "settings": {
         "full_width": true,
