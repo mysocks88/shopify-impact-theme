@@ -14,6 +14,37 @@ the underlying logic of the menu.
 {%- endif -%}
 
 <style>
+
+  .custom-header-bottom-menu {
+  width: 100%;
+  background: transparent;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-menu-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-menu-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.bottom-menu-links li a:hover {
+  color: #dddddd;
+}
+
   :root {
     --sticky-header-enabled: {%- if section.settings.enable_sticky -%}1{% else %}0{% endif %};
   }
@@ -278,6 +309,17 @@ the underlying logic of the menu.
         </div>
       </div>
     </div>
+
+<div class="custom-header-bottom-menu">
+  <ul class="bottom-menu-links">
+    <li><a href="https://discord.gg/Z387XxGJ" target="_blank">Join</a></li>
+    <li><a href="/pages/events">Events</a></li>
+    <li><a href="/blogs/news">News</a></li>
+    <li><a href="/pages/shop">Shop</a></li>
+  </ul>
+</div>
+
+
   </store-header>
 </height-observer>
 
