@@ -14,7 +14,21 @@ the underlying logic of the menu.
 {%- endif -%}
 
 <style>
+.custom-header-bottom-menu {
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 9;
+}
 
+.custom-header-bottom-menu.scrolled {
+  background-color: #002856;
+}
   .custom-header-bottom-menu {
   width: 100%;
   background: transparent;
@@ -310,7 +324,7 @@ the underlying logic of the menu.
       </div>
     </div>
 
-<div class="custom-header-bottom-menu">
+<div id="custom-header-bottom-menu" class="custom-header-bottom-menu">
   <ul class="bottom-menu-links">
     <li><a href="https://discord.gg/Z387XxGJ" target="_blank">Join</a></li>
     <li><a href="/pages/events">Events</a></li>
