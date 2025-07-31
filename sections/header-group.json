@@ -53,7 +53,9 @@
       "block_order": [
         "mega_menu_P4QbYX"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".header__icon-list a[href*=\"search\"],.tap-area[aria-controls=\"search-drawer\"] {display: none !important;}"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
