@@ -75,6 +75,69 @@ the underlying logic of the menu.
   {%- endif -%}
 </style>
 
+<style>
+  :root {
+    --sticky-header-enabled: {%- if section.settings.enable_sticky -%}1{% else %}0{% endif %};
+  }
+
+  #shopify-section-{{ section.id }} {
+    --header-grid-template: "main-nav logo secondary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
+    --header-padding-block: {% if section.settings.reduce_padding %}var(--spacing-3){% else %}var(--spacing-4-5){% endif %};
+    --header-background-opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
+    --header-background-blur-radius: {{ section.settings.background_blur_radius }}px;
+    --header-transparent-text-color: {{ section.settings.transparent_header_text_color.rgb }};
+
+    {%- if section.settings.logo != blank -%}
+      --header-logo-width: {{ section.settings.logo_mobile_max_width }}px;
+      --header-logo-height: {{ section.settings.logo_mobile_max_width | divided_by: section.settings.logo.aspect_ratio | round }}px;
+    {%- endif -%}
+
+    position: {% if section.settings.enable_sticky %}sticky{% else %}relative{% endif %};
+    top: 0;
+    z-index: 10;
+  }
+
+  {%- if section.settings.enable_sticky -%}
+    .shopify-section--announcement-bar ~ #shopify-section-{{ section.id }} {
+      top: calc(var(--sticky-announcement-bar-enabled, 0) * var(--announcement-bar-height, 0px));
+    }
+  {%- endif -%}
+
+  {%- if section.settings.opening_from == 'left' -%}
+    @media screen and (max-width: 699px) {
+      .navigation-drawer {
+        --drawer-content-max-height: calc(100vh - (var(--spacing-2) * 2));
+      }
+    }
+  {%- endif -%}
+
+  @media screen and (min-width: 700px) {
+    #shopify-section-{{ section.id }} {
+      {%- if section.settings.logo != blank -%}
+        --header-logo-width: {{ section.settings.logo_max_width }}px;
+        --header-logo-height: {{ section.settings.logo_max_width | divided_by: section.settings.logo.aspect_ratio | round }}px;
+      {%- endif -%}
+
+      --header-padding-block: {% if section.settings.reduce_padding %}var(--spacing-6){% else %}var(--spacing-8-5){% endif %};
+    }
+  }
+
+  {%- if section.settings.layout contains 'logo_left' -%}
+    @media screen and (min-width: 1150px) {
+      {%- if section.settings.secondary_menu != blank or will_show_country_selector or will_show_locale_selector -%}
+        {%- assign max_percent = '55%' -%}
+      {%- else -%}
+        {%- assign max_percent = '70%' -%}
+      {%- endif -%}
+
+      #shopify-section-{{ section.id }} {
+        --header-grid-template: "logo main-nav secondary-nav" / {% if section.settings.layout == 'logo_left_navigation_inline' %}auto minmax(0, 1fr) minmax(0, max-content){% else %}minmax(0, 1fr) fit-content({{ max_percent }}) minmax(0, 1fr){% endif %};
+      }
+    }
+  {%- endif -%}
+</style>
+
+
 <height-observer variable="header">
   <store-header class="header" {% if section.settings.hide_on_scroll %}hide-on-scroll="100"{% endif %} {% if section.settings.enable_sticky %}sticky{% endif %}>
     <div class="header__wrapper">
